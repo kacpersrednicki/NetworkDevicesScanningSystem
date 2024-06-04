@@ -13,8 +13,8 @@ from datetime import datetime
 import time
 
 # Dane do logowania i połączenia
-email = 'kacper.srednicki@onet.pl'
-password = 'QHVI-P0LO-XCO8-1V6N'
+email = ''
+password = ''
 connection = UnixSocketConnection(path='/bso/gvm/gvmd/gvmd.sock')
 transform = EtreeTransform()
 
